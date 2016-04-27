@@ -9,7 +9,11 @@
 /* Begin PBXBuildFile section */
 		8819A5571CD10BC500361583 /* LatchCommons.h in Headers */ = {isa = PBXBuildFile; fileRef = 8819A5561CD10BC500361583 /* LatchCommons.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8819A55E1CD10BC500361583 /* LatchCommons.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8819A5531CD10BC500361583 /* LatchCommons.framework */; };
-		8819A5631CD10BC500361583 /* LatchCommonsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8819A5621CD10BC500361583 /* LatchCommonsTests.swift */; };
+		8819A56E1CD12BD800361583 /* Recognition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8819A56D1CD12BD800361583 /* Recognition.swift */; };
+		8819A5701CD12C6C00361583 /* Curry.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8819A56F1CD12C6C00361583 /* Curry.framework */; };
+		8819A5731CD12CBC00361583 /* Nimble.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8819A5711CD12CBC00361583 /* Nimble.framework */; };
+		8819A5741CD12CBC00361583 /* Quick.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8819A5721CD12CBC00361583 /* Quick.framework */; };
+		8819A5781CD12D5A00361583 /* RecognitionSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8819A5771CD12D5A00361583 /* RecognitionSpec.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,8 +31,12 @@
 		8819A5561CD10BC500361583 /* LatchCommons.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LatchCommons.h; sourceTree = "<group>"; };
 		8819A5581CD10BC500361583 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8819A55D1CD10BC500361583 /* LatchCommonsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LatchCommonsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		8819A5621CD10BC500361583 /* LatchCommonsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LatchCommonsTests.swift; sourceTree = "<group>"; };
 		8819A5641CD10BC500361583 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8819A56D1CD12BD800361583 /* Recognition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Recognition.swift; sourceTree = "<group>"; };
+		8819A56F1CD12C6C00361583 /* Curry.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Curry.framework; path = "../Carthage/Checkouts/Curry/build/Debug-iphoneos/Curry.framework"; sourceTree = "<group>"; };
+		8819A5711CD12CBC00361583 /* Nimble.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Nimble.framework; path = "../Carthage/Checkouts/Nimble/build/Debug-iphoneos/Nimble.framework"; sourceTree = "<group>"; };
+		8819A5721CD12CBC00361583 /* Quick.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Quick.framework; path = "../Carthage/Checkouts/Quick/build/Debug-iphoneos/Quick.framework"; sourceTree = "<group>"; };
+		8819A5771CD12D5A00361583 /* RecognitionSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecognitionSpec.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,6 +44,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8819A5701CD12C6C00361583 /* Curry.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -43,6 +52,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8819A5731CD12CBC00361583 /* Nimble.framework in Frameworks */,
+				8819A5741CD12CBC00361583 /* Quick.framework in Frameworks */,
 				8819A55E1CD10BC500361583 /* LatchCommons.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -71,8 +82,10 @@
 		8819A5551CD10BC500361583 /* LatchCommons */ = {
 			isa = PBXGroup;
 			children = (
+				8819A5751CD12CCD00361583 /* Frameworks */,
 				8819A5561CD10BC500361583 /* LatchCommons.h */,
 				8819A5581CD10BC500361583 /* Info.plist */,
+				8819A56D1CD12BD800361583 /* Recognition.swift */,
 			);
 			path = LatchCommons;
 			sourceTree = "<group>";
@@ -80,10 +93,28 @@
 		8819A5611CD10BC500361583 /* LatchCommonsTests */ = {
 			isa = PBXGroup;
 			children = (
-				8819A5621CD10BC500361583 /* LatchCommonsTests.swift */,
+				8819A5761CD12CDC00361583 /* Frameworks */,
+				8819A5771CD12D5A00361583 /* RecognitionSpec.swift */,
 				8819A5641CD10BC500361583 /* Info.plist */,
 			);
 			path = LatchCommonsTests;
+			sourceTree = "<group>";
+		};
+		8819A5751CD12CCD00361583 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8819A56F1CD12C6C00361583 /* Curry.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8819A5761CD12CDC00361583 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8819A5711CD12CBC00361583 /* Nimble.framework */,
+				8819A5721CD12CBC00361583 /* Quick.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -194,6 +225,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8819A56E1CD12BD800361583 /* Recognition.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -201,7 +233,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8819A5631CD10BC500361583 /* LatchCommonsTests.swift in Sources */,
+				8819A5781CD12D5A00361583 /* RecognitionSpec.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -310,6 +342,7 @@
 		8819A5681CD10BC500361583 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
@@ -320,12 +353,14 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.latchable.LatchCommons;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
 		8819A5691CD10BC500361583 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
@@ -378,6 +413,7 @@
 				8819A5691CD10BC500361583 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8819A56A1CD10BC500361583 /* Build configuration list for PBXNativeTarget "LatchCommonsTests" */ = {
 			isa = XCConfigurationList;
@@ -386,6 +422,7 @@
 				8819A56C1CD10BC500361583 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
