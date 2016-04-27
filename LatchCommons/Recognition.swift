@@ -9,9 +9,9 @@
 import Foundation
 import Curry
 
-class Recognition: NSObject {
+public class Recognition: NSObject {
     
-    func greet() -> String {
+    public func greet() -> String {
         return "Hello"
     }
     

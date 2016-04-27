@@ -8,7 +8,7 @@
 
 import Quick
 import Nimble
-@testable import LatchCommons
+import LatchCommons
 
 class RecognitionSpec: QuickSpec {
     

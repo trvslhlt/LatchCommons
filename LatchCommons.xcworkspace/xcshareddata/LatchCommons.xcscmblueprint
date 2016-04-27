@@ -1,17 +1,20 @@
 {
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "80C3067FE9C871C2E5445934C2EF50EEC449D309",
   "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
 
   },
   "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "80C3067FE9C871C2E5445934C2EF50EEC449D309" : 0,
     "95438028B10BBB846574013D29F154A00556A9D1" : 0,
-    "194A7A54F3CE0138A6C320E0643B7C60F8218891" : 0,
-    "D0725CAC6FF2D66F2C83C2C48DC12106D42DAA64" : 0
+    "D0725CAC6FF2D66F2C83C2C48DC12106D42DAA64" : 0,
+    "194A7A54F3CE0138A6C320E0643B7C60F8218891" : 0
   },
   "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "77821CB9-16C1-42B0-AE7B-BCC21423BAA6",
   "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "80C3067FE9C871C2E5445934C2EF50EEC449D309" : "LatchCommons\/",
     "95438028B10BBB846574013D29F154A00556A9D1" : "LatchCommons\/Carthage\/Checkouts\/Nimble\/",
-    "194A7A54F3CE0138A6C320E0643B7C60F8218891" : "LatchCommons\/Carthage\/Checkouts\/Curry\/",
-    "D0725CAC6FF2D66F2C83C2C48DC12106D42DAA64" : "LatchCommons\/Carthage\/Checkouts\/Quick\/"
+    "D0725CAC6FF2D66F2C83C2C48DC12106D42DAA64" : "LatchCommons\/Carthage\/Checkouts\/Quick\/",
+    "194A7A54F3CE0138A6C320E0643B7C60F8218891" : "LatchCommons\/Carthage\/Checkouts\/Curry\/"
   },
   "DVTSourceControlWorkspaceBlueprintNameKey" : "LatchCommons",
   "DVTSourceControlWorkspaceBlueprintVersion" : 204,
@@ -21,6 +24,11 @@
       "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/thoughtbot\/Curry.git",
       "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
       "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "194A7A54F3CE0138A6C320E0643B7C60F8218891"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/trvslhlt\/LatchCommons.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "80C3067FE9C871C2E5445934C2EF50EEC449D309"
     },
     {
       "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/Quick\/Nimble.git",
